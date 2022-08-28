@@ -22,9 +22,8 @@ class OnBoardWidget extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-       
           Center(
             child: Image.asset(
               'assets/images/$image.png',
@@ -42,7 +41,7 @@ class OnBoardWidget extends StatelessWidget {
           Center(
             child: Text(
               title,
-              style: onBoardTitle,
+              style: titleText,
             ),
           ),
           const SizedBox(height: 42),
@@ -50,7 +49,7 @@ class OnBoardWidget extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
               description,
-              style: onBoardSubtitle,
+              style: descriptionText,
               textAlign: TextAlign.center,
             ),
           ),

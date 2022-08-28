@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:todo_app/app/shared/color.dart';
 
-TextStyle onBoardTitle = GoogleFonts.lato(
+TextStyle titleText = GoogleFonts.lato(
   fontWeight: FontWeight.w700,
   fontSize: 32,
   color: whiteColor,
 );
-TextStyle onBoardSubtitle = GoogleFonts.lato(
+TextStyle descriptionText = GoogleFonts.lato(
   fontSize: 16,
   color: whiteColor,
 );

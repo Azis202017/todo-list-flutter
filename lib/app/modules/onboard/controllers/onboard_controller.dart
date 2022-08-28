@@ -26,7 +26,7 @@ class OnboardController extends GetxController {
   }
 
   void toGetStartedPage() {
-    Get.offAllNamed(Routes.HOME);
+    Get.toNamed(Routes.GET_STARTED);
   }
 
   void toNextPage() {
